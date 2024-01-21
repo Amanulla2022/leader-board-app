@@ -1,0 +1,110 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+main {
+  text-align: center;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #3498db;
+  background-color: aqua;
+}
+
+form {
+  margin-top: 1.25rem;
+}
+
+input {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  width: 9.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.625rem;
+  background-color: #17e0a0;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 0.625rem;
+  margin: 0.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: animate__fadeInLeftBig;
+}
+
+span {
+  margin-right: 0.625rem;
+}
+.name {
+  color: #3498db;
+  font-size: 1.5rem;
+}
+.score {
+  color: #ed2be4;
+}
+
+.delete-btn {
+  padding: 0.25rem 0.625rem;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.alert {
+  color: red;
+  margin-bottom: 0.75rem;
+}
+
+.details {
+  font-size: 0.5rem;
+  color: brown;
+}
+
+.country {
+  width: 2.5rem;
+  border: 2px solid;
+  border-radius: 2rem;
+}
+
+@keyframes listAnimation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.list-animation {
+  animation: listAnimation 1s ease-in-out;
+}

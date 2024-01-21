@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>LEADERBOARD</h1>
+      <div id="alert" class="alert" style="display: none"></div>
+
+      <form onsubmit="addPlayer(event)">
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+        <input type="text" id="country" placeholder="Country" />
+        <input type="number" id="score" placeholder="Score" max="100" min="0" />
+        <button type="submit" class="animate__animated animate__fadeInDownBig">
+          Add Player
+        </button>
+      </form>
+      <ul id="player-list"></ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
