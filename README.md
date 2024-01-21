@@ -1,5 +1,7 @@
 # Leaderboard Project
 
+Hosted Link: https://amanulla2022.github.io/leader-board-app/
+
 ## Overview
 
 This project is a simple leaderboard application built using HTML, CSS, and JavaScript. It allows users to view, add, and update leaderboard entries.
@@ -15,7 +17,7 @@ This project is a simple leaderboard application built using HTML, CSS, and Java
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/leaderboard-project.git
+git clone https:https:https://github.com/Amanulla2022/leader-board-app.git
 
 ### Features
 View the leaderboard with existing entries.
